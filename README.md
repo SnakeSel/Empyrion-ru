@@ -1,11 +1,11 @@
-# Empyrion-ru
-Empyrion - Galactic Survival Русская локализация
+# Empyrion - Galactic Survival Русская локализация
 
 - Empyrion - Galactic Survival: Файлы перевода для игры. Версия 1.11.4
 - Reforged Eden: Файлы перевода для Reforged Eden 1.11
 - Original: Оригинальные файла из игры для перевода. (Временная папка)
 
 Базовые файлы перевода игры от [SlinZa](https://steamcommunity.com/sharedfiles/filedetails/?id=3004261316)
+
 Базовые файлы перевода Reforged Eden от [Адам Вейсхаупт](https://steamcommunity.com/sharedfiles/filedetails/?id=2916309536)
 
 ## Установка перевода Empyrion - Galactic Survival
