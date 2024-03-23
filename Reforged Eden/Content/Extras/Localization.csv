@@ -2419,7 +2419,7 @@ bkiCurrencyT2,"A high-value Platinum Credit Card issued by Trade Federation Bank
 bkiPlayerGuard,Security Contract for a single security guard for static structures.\nPlaces the crewmember's bed from which they will be deployed.\nWill patrol the area and engage hostile targets.,,,,,,,,"Контракт на охрану для одного охранника для статичных сооружений.\nРазмещает кровать члена экипажа, с которой они будут развернуты.\nБудет патрулировать территорию и атаковать враждебные цели.",,,,,,,,
 bkiPlayerAndroid,A portable Security Android for static structures.\nPlaces the android's charging pad from which they will be deployed.\nWill patrol the area and engage hostile targets.,,,,,,,,"Портативный Android-охранник для статических сооружений.\nРазмещает зарядную площадку андроида, с которой они будут развернуты.\nБудет патрулировать территорию и атаковать враждебные цели.",,,,,,,,
 bkiPlayerMech,A Type-22 Deployable Heavy Mechanoid for militarized structures.\nPlaces the Mechanoid's charging pad from which they will be deployed.\nWill patrol the area and engage hostile targets.,,,,,,,,"Развертываемый тяжелый механоид Тип-22 для военных структур.\nРазмещает зарядную площадку механоидов, с которой они будут развернуты.\nБудет патрулировать территорию и атаковать враждебные цели.",,,,,,,,
-mapCarbonResource,Graphite,,,,,,,,Carbon,,,,,,,,
+mapCarbonResource,Graphite,,,,,,,,Углерод,,,,,,,,
 AsteroidCarbon,Graphite Meteorite,,,,,,,,Углеродный метеорит,,,,,,,,
 RockResourceCarbon,Graphite bearing,,,,,,,,Углеродный подшипник,,,,,,,,
 RockResourcePlatinum,Platinum bearing,,,,,,,,Платиновый подшипник,,,,,,,,
