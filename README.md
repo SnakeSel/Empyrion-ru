@@ -25,9 +25,11 @@
 2. PDA.csv `SteamLibrary\steamapps\workshop\content\383120\2550354956\Content\Extras\PDA\PDA.csv`
 3. Localization.csv `SteamLibrary\steamapps\workshop\content\383120\2550354956\Content\Extras\Localization.csv`
 
-> Можно скопировать сценарий RE из мастерской (`SteamLibrary\steamapps\workshop\content\383120\2550354956`) в папку Empyrion - `Galactic Survival\Content\Scenarios`
-> И тогда заменять файлы в ней. 
-> Это позволит не потерять перевод при обновлении версии мода RE
+> Можно скопировать сценарий RE из мастерской (`SteamLibrary\steamapps\workshop\content\383120\2550354956`) в папку Empyrion - `Galactic Survival\Content\Scenarios` 
+> и переименовать как вам удобно.  
+> И тогда заменять файлы в ней.  
+> **При переносе сценария - только новая игра!**  
+> Это позволит избежать возможную поломку сохранения при обновлении версии RE
 
 ### В папку с сохранениями:
 1. PDA.csv `\Empyrion - Galactic Survival\Saves\Games\ВАШЕ_СОХРАНЕНИЕ\PDA\PDA.csv`
