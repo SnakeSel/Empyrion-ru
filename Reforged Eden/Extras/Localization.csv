@@ -3826,3 +3826,7 @@ Eden_BarkPirateBulk37,A group from the Omicron Raiders came through here last we
 Eden_BarkPirateBulk38,You look like you could use a drink. Head on over to PAX Purgatory.,,,,,,,," Ты выглядишь так, будто тебе не помешало бы выпить. Отправляйтесь в Чистилище ПАКС.",,,,,,,,
 Eden_BarkPirateBulk39,Keep a tight grip on your coin purse.,,,,,,,, Крепко держите свой кошелек для монет.,,,,,,,,
 Eden_BarkPirateBulk40,"There's a secret way into the VIP lounge. No, I won't tell you where it is.",,,,,,,," Есть секретный проход в VIP-зал. Нет, я не скажу тебе, где это.",,,,,,,,
+Detector,Detector,,,,,,,,Сканер,,,,,,,,
+Volume,Volume,,,,,,,,Объем,,,,,,,,
+Undelivered Cargo,Undelivered Cargo,,,,,,,,Недоставленный груз,,,,,,,,
+AlphaFieldSensitivity,AlphaFieldSensitivity,,,,,,,,Восприимчивость к Темному полю,,,,,,,,
