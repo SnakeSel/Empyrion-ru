@@ -25275,7 +25275,8 @@
   StaminaFac: 1.00, type: float, display: true
   NrSlots: 1, type: int, display: true
   SlotItems: "Eden_JetpackBoostAugmented, Eden_HeatBoostAugmented, Eden_ColdBoostAugmented, Eden_RadiationBoostAugmented, Eden_TransportationBoostAugmented, Eden_ArmorBoostAugmented"
-  Info: An advanced suit of armor augmented by Progenitor tech. Can be further enhanced with a single Augmented Upgrade Module. [c][FFFF00]Only install Augmented Upgrades into this armor.[-][/c], display: true
+  Info: Продвинутый бронекостюм усиленный по технологии Предтечи. Можно установить один модуль Модернизированного Усилителя. [c][FFFF00]
+В эту броню можно установить только Мод. Усилитель.[-][/c], display: true
   UnlockCost: 1, display: true
   UnlockLevel: 2, display: true
   TechTreeParent: Eden_ResearchProgenitorArmor1
@@ -25328,7 +25329,7 @@
   StaminaFac: -0.35, type: float, display: true
 
   ShowUser: Yes
-  Info: Configures Augmented Armor for enhanced mobility and moderately enhanced armor. \n\nУстанавливается только на Улучшенную Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Улучшенный Усилитель на Улучшенную Броню.[-][/c], display: true
+  Info: Настраивает Мод. броню для повышения мобильности и небольшого повышения брони. \n\nУстанавливается только на Модернизированную Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Мод. Усилитель на Мод. Броню.[-][/c], display: true
   UnlockCost: 1, display: true
   UnlockLevel: 3, display: true
   TechTreeParent: Eden_ResearchProgenitorArmor2
@@ -25351,7 +25352,7 @@
   Mass: 3.5, type: float, display: true, formatter: Kilogram
   MarketPrice: 3000
   ShowUser: Yes
-  Info: Configures Augmented Armor for operation in extreme heat environments. \n\nУстанавливается только на Улучшенную Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Улучшенный Усилитель на Улучшенную Броню.[-][/c], display: true
+  Info: Настраивает Мод. броню для экстремально высоких температурных условий. \n\nУстанавливается только на Мод. Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Мод. Усилитель на Мод. Броню.[-][/c], display: true
   UnlockCost: 1, display: true
   UnlockLevel: 4, display: true
   TechTreeParent: Eden_ColdBoostAugmented
@@ -25367,7 +25368,7 @@
   VolumeCapacity: 1000, type: float, display: true, formatter: Liter
 
   ShowUser: Yes
-  Info: Configures Augmented Armor for extreme cold environments. \n\nУстанавливается только на Улучшенную Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Улучшенный Усилитель на Улучшенную Броню.[-][/c], display: true
+  Info: Настраивает Мод. броню для экстремально холодных температурных условий. \n\nУстанавливается только на Мод. Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Мод. Усилитель на Мод. Броню.[-][/c], display: true
   UnlockCost: 1, display: true
   UnlockLevel: 3, display: true
   TechTreeParent: Eden_ArmorLightAugmented
@@ -25386,7 +25387,7 @@
   FoodFac: 0.15, type: float, display: true
   
   ShowUser: Yes
-  Info: Configures Augmented Armor for extreme radioactive environments. \n\nУстанавливается только на Улучшенную Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Улучшенный Усилитель на Улучшенную Броню.[-][/c], display: true
+  Info: Настраивает Мод. броню для экстремальных радиоактивных условий. \n\nУстанавливается только на Мод. Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Мод. Усилитель на Мод. Броню.[-][/c], display: true
   UnlockCost: 1, display: true
   UnlockLevel: 5, display: true
   TechTreeParent: Eden_HeatBoostAugmented
@@ -25407,7 +25408,7 @@
   FoodFac: 0.15, type: float, display: true
   
   ShowUser: Yes
-  Info: Configures Augmented Armor for combat and storage capacity. \n\nУстанавливается только на Улучшенную Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Улучшенный Усилитель на Улучшенную Броню.[-][/c], display: true
+  Info: Настраивает Мод. броню для ведения боя и грузоподъемности. \n\nУстанавливается только на Мод. Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете Мод. Усилитель на Мод. Броню.[-][/c], display: true
   UnlockCost: 1, display: true
   UnlockLevel: 4, display: true
   TechTreeParent: Eden_JetpackBoostAugmented
@@ -25427,7 +25428,7 @@
   FoodFac: 1, type: float, display: true
 
   ShowUser: Yes
-  Info: Configures Augmented Armor for heavy combat. \n\nУстанавливается только на Улучшенную Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Ensure you are installing Augmented Upgrades.[-][/c], display: true
+  Info: Настраивает Мод. броню для тяжелых сражений. \n\nУстанавливается только на Мод. Легкую Броню. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Ensure you are installing Augmented Upgrades.[-][/c], display: true
   UnlockCost: 1, display: true
   UnlockLevel: 5, display: true
   TechTreeParent: Eden_TransportationBoostAugmented
@@ -30094,7 +30095,7 @@
   StackSize: 50000
   Category: Research
   ShowUser: No
-  Info: Открывает защитные улучшения для Улучшенной Брони. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете правильный усилитель.[-][/c], display: true
+  Info: Открывает защитные улучшения для Модернизированной Брони. \n\n[c][FFFF00]Попытка установить несовместимый усилитель приведет к разрушению усилителя! Убедитесь что вы устанавливаете правильный усилитель.[-][/c], display: true
 
   UnlockCost: 1000, display: true
   UnlockLevel: 1, display: true
