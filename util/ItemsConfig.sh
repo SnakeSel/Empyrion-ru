@@ -49,7 +49,7 @@ replace "Schematic required to unlock" "Для разблокировки тре
 replace "A potent beverage that grants increased stamina and health regeneration at the cost of increased body temperature and radiation for 5 minutes" "Сильнодействующий напиток дающий повышенную выносливость и восстановление здоровья за счет повышения температуры тела и радиации на 5 минут"
 replace "Can only be installed in Augmented Light Armor" "Устанавливается только на Мод. Легкую Броню"
 replace "Can only be installed in Augmented Armor" "Устанавливается только на Модернизированную Броню"
-replace "Only install Augmented Upgrades into this armor" "\nВ эту броню можно установить только Мод. Усилитель"
+replace "Only install Augmented Upgrades into this armor" "\\\nВ эту броню можно установить только Мод. Усилитель"
 replace "An advanced suit of armor augmented by Progenitor tech. Can be further enhanced with a single Augmented Upgrade Module" "Продвинутый бронекостюм, усиленный по технологии Предтечи. Можно установить один модуль Модернизированного Усилителя"
 replace "Configures Augmented Armor" "Настраивает Мод. броню"
 replace "for enhanced mobility and moderately enhanced armor" "для повышения мобильности и небольшого повышения брони"

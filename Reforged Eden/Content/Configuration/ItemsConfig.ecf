@@ -25275,8 +25275,7 @@
   StaminaFac: 1.00, type: float, display: true
   NrSlots: 1, type: int, display: true
   SlotItems: "Eden_JetpackBoostAugmented, Eden_HeatBoostAugmented, Eden_ColdBoostAugmented, Eden_RadiationBoostAugmented, Eden_TransportationBoostAugmented, Eden_ArmorBoostAugmented"
-  Info: Продвинутый бронекостюм усиленный по технологии Предтечи. Можно установить один модуль Модернизированного Усилителя. [c][FFFF00]
-В эту броню можно установить только Мод. Усилитель.[-][/c], display: true
+  Info: Продвинутый бронекостюм усиленный по технологии Предтечи. Можно установить один модуль Модернизированного Усилителя. [c][FFFF00]\nВ эту броню можно установить только Мод. Усилитель.[-][/c], display: true
   UnlockCost: 1, display: true
   UnlockLevel: 2, display: true
   TechTreeParent: Eden_ResearchProgenitorArmor1
