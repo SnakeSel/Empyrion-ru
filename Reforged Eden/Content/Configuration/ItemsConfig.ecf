@@ -121,8 +121,9 @@
   TechTreeNames: Tools
 }
 { +Item Id: 3, Name: Pistol
-  # Meshfile: Entities/Items/Weapons/Pistols/ProjectilePistolPrefab 
-  Meshfile: Entities/Items/Weapons/Pistols/SciFiPistol4BlackPrefab
+  # Meshfile: Entities/Items/Weapons/Pistols/ProjectilePistolPrefab
+  # Meshfile: Entities/Items/Weapons/Pistols/SciFiPistol4BlackPrefab
+  Meshfile: Entities/Items/Weapons/Pistols/ProjectilePistolPrefab
   PickupToToolbar: true
   MarketPrice: 16, display: true
   Material: metalweapon
@@ -3909,9 +3910,13 @@
   SfxJammed: Weapons/Player/Reload/WeaponJammedSingleShot    
   { Child 0
     Class: LauncherSS
-    ROF: 1.5, type: float, display: true, formatter: ROF
+    ROF: 0.25, type: float, display: true, formatter: ROF
     Range: 950, display: false
+    Automatic: true
     ReloadDelay: 3.7, display: true
+    Recoil: 0, display: true
+    Stamina: 0, display: false
+    CameraShake: 0
     AmmoCapacity: 10, display: false
     AmmoType: RocketDebug, display: true
     AmmoUnlimited: true
@@ -4455,10 +4460,10 @@
   ShowUser: No
   { Child 0
     Class: Projectile
-    Damage: 10000 
+    Damage: 25000
     BlastParticleIndex: 3
-    BlastRadius: 3, display: true
-    BlastDamage: 10000, display: true
+    BlastRadius: 4, display: true
+    BlastDamage: 25000, display: true
     Speed: 150
     Range: 1000
     Ballistic: false
@@ -7048,8 +7053,7 @@
   TechTreeNames: Hidden
 }
 { +Item Id: 152, Name: FastRocket
-  #Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
-  Meshfile: @reforgedcontent/CouchRocket
+  Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   MarketPrice: 135, display: true
@@ -7146,8 +7150,7 @@
 { +Item Id: 154, Name: PulseLaserChargeSS
   # Meshfile: Entities/Misc/DummyPrefab
   # Meshfile: Entities/Items/Weapons/Projectiles/TracerLaserShotBlueSV
-  #Meshfile: @rg_projectiles/RG_ProjectileLaserBlueS
-  Meshfile: @reforgedcontent/MilkBullet
+  Meshfile: @rg_projectiles/RG_ProjectileLaserBlueS
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   MarketPrice: 317, display: true
@@ -7198,8 +7201,7 @@
 { +Item Id: 155, Name: IONCannonCharge
   # Meshfile: Entities/Items/Weapons/Projectiles/AlienRocketGreenPrefab
   # Meshfile: Entities/Items/Weapons/Projectiles/alienRocketPrefab
-  #Meshfile: @rg_projectiles/RG_ProjectilePlasmaGreen
-  Meshfile: @reforgedcontent/MicrowaveMissile
+  Meshfile: @rg_projectiles/RG_ProjectilePlasmaGreen
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: "Base,MS", display: false
@@ -7252,8 +7254,7 @@
 
 { +Item Id: 156, Name: LargeRocket
   # Meshfile: Entities/Items/Weapons/Projectiles/RocketLargePrefab
-  #Meshfile: @rg_projectiles/RG_ProjectileArtilleryYellowNew
-  Meshfile: @reforgedcontent/FridgeMissile
+  Meshfile: @rg_projectiles/RG_ProjectileArtilleryYellowNew
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: Base, display: false
@@ -7303,8 +7304,7 @@
 }
 
 { +Item Id: 157, Name: PulseLaserChargeMS
-  #Meshfile: Entities/Items/Weapons/Projectiles/LaserShotBlueTurret
-  Meshfile: @reforgedcontent/CokeBullet
+  Meshfile: Entities/Items/Weapons/Projectiles/LaserShotBlueTurret
   /* Meshfile: Entities/Items/Weapons/Projectiles/LaserShot02   */
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
@@ -7356,8 +7356,7 @@
   TechTreeNames: Hidden
 }
 { +Item Id: 158, Name: FastRocketMS
-  #Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
-  Meshfile: @reforgedcontent/CouchRocket
+  Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: MS, display: false
@@ -7409,8 +7408,7 @@
 { +Item Id: 159, Name: IONCannonCharge2
   # Meshfile: Entities/Items/Weapons/Projectiles/AlienRocketRedPrefab #RG
   # Meshfile: Entities/Items/Weapons/Projectiles/alienRocket2Prefab
-  #Meshfile: @rg_projectiles/RG_ProjectilePlasmaRedL
-  Meshfile: @reforgedcontent/LaundryLauncher
+  Meshfile: @rg_projectiles/RG_ProjectilePlasmaRedL
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: "Base,MS", display: false
@@ -7463,8 +7461,7 @@
 }
 
 { +Item Id: 160, Name: TurretGVPlasmaCharge
-  #Meshfile: Entities/Items/Weapons/Projectiles/PlasmaProjectilePrefab
-  Meshfile: @reforgedcontent/MicrowaveMissile
+  Meshfile: Entities/Items/Weapons/Projectiles/PlasmaProjectilePrefab
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: "SS,GV", display: false
@@ -7572,8 +7569,7 @@
 
 { +Item Id: 162, Name: TurretMSPlasmaCharge
   # Meshfile: @rg_projectiles/RG_ProjectilePlasmaBlue
-  #Meshfile: Entities/Items/Weapons/Projectiles/PlasmaProjectilePrefab
-  Meshfile: @reforgedcontent/LaundryLauncher
+  Meshfile: Entities/Items/Weapons/Projectiles/PlasmaProjectilePrefab
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: MS, display: false
@@ -7627,8 +7623,7 @@
 { +Item Id: 163, Name: ArtilleryRocket
   # Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
   # Meshfile: Entities/Items/Weapons/Projectiles/RocketLargePrefab
-  #Meshfile: @rg_projectiles/RG_ProjectileArtilleryOrange
-  Meshfile: @reforgedcontent/CouchRocket
+  Meshfile: @rg_projectiles/RG_ProjectileArtilleryOrange
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: GV, display: false
@@ -7677,8 +7672,7 @@
 
 { +Item Id: 164, Name: TurretEnemyLaserCharge
   # Meshfile: Entities/Items/Weapons/Projectiles/LaserShotRedAlien
-  #Meshfile: @rg_projectiles/RG_ProjectileLaserZiraxRedL
-  Meshfile: @reforgedcontent/CokeBullet
+  Meshfile: @rg_projectiles/RG_ProjectileLaserZiraxRedL
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: "Base,MS", display: false
@@ -7961,8 +7955,7 @@
 { +Item Id: 171, Name: PulseLaserChargeMSWeapon
   # Meshfile: Entities/Items/Weapons/Projectiles/LaserShotBlueTurret
   # Meshfile: Entities/Items/Weapons/Projectiles/TracerLaserShotBlueCV
-  # Meshfile: @rg_projectiles/RG_ProjectileLaserBlueLong
-  Meshfile: @reforgedcontent/MilkBullet
+  Meshfile: @rg_projectiles/RG_ProjectileLaserBlueLong
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: MS, display: false
@@ -8051,8 +8044,7 @@
   }
 }
 { +Item Id: 173, Name: TurretEnemyArtilleryAmmo, Ref: LargeRocket
-  #Meshfile: @rg_projectiles/RG_ProjectileArtilleryRedNew
-  Meshfile: @reforgedcontent/FridgeMissile
+  Meshfile: @rg_projectiles/RG_ProjectileArtilleryRedNew
   AllowPlacingAt: Base, display: false
   CustomIcon: ArtilleryRocket
   Info: itmZiraxArtilleryShellT1, display: true
@@ -8093,8 +8085,7 @@
 }
 { +Item Id: 174, Name: FastRocketGV, Ref: FlakRocket
   AllowPlacingAt: GV, display: false
-  #Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
-  Meshfile: @reforgedcontent/CouchRocket
+  Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
   Mass: 19, type: float, display: true, formatter: Kilogram
   Volume: 3.8, type: float, display: true, formatter: Liter
   MarketPrice: 140, display: true
@@ -8215,8 +8206,7 @@
 { +Item Id: 177, Name: TurretEnemyEMPCharge
   # Meshfile: Entities/Items/Weapons/Projectiles/PlasmaProjectilePrefab
   # Meshfile: Entities/Items/Weapons/Projectiles/LaserShotYellowAlien
-  #Meshfile: @rg_projectiles/RG_ProjectilePlasmaWhite
-  Meshfile: @reforgedcontent/LaundryLauncher
+  Meshfile: @rg_projectiles/RG_ProjectilePlasmaWhite
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: "Base,MS", display: false
@@ -8266,8 +8256,7 @@
   TechTreeNames: Hidden
 }
 { +Item Id: 178, Name: TurretEnemyLaserChargeT2
-  #Meshfile: Entities/Items/Weapons/Projectiles/AlienRocketGreenPrefab
-  Meshfile: @reforgedcontent/MicrowaveMissile
+  Meshfile: Entities/Items/Weapons/Projectiles/AlienRocketGreenPrefab
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: "Base,MS", display: false
@@ -18318,8 +18307,7 @@
 }
 { Item Id: 1622, Name: HeavyRocketMS
   # Meshfile: Entities/Items/Weapons/Projectiles/RocketLargePrefab
-  # Meshfile: @rg_projectiles/RG_ProjectileHeavyRocket2
-  Meshfile: @reforgedcontent/CouchRocket
+  Meshfile: @rg_projectiles/RG_ProjectileHeavyRocket2
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: MS, display: false
@@ -18478,8 +18466,7 @@
 }
 { Item Id: 1625, Name: TurretMSPlasmaChargeT2
   # Meshfile: Entities/Items/Weapons/Projectiles/PlasmaProjectilePrefab
-  #Meshfile: @rg_projectiles/RG_ProjectilePlasmaBlue
-  Meshfile: @reforgedcontent/LaundryLauncher
+  Meshfile: @rg_projectiles/RG_ProjectilePlasmaBlue
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   HoldType: 0
@@ -18532,8 +18519,7 @@
 }
 { Item Id: 1626, Name: ArtilleryShellCVT2
   # Meshfile: Entities/Items/Weapons/Projectiles/RocketLargePrefab
-  #Meshfile: @rg_projectiles/RG_ProjectileArtilleryOrangeNew
-  Meshfile: @reforgedcontent/FridgeMissile
+  Meshfile: @rg_projectiles/RG_ProjectileArtilleryOrangeNew
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   HoldType: 0
@@ -18796,8 +18782,7 @@
 }
 { Item Id: 1631, Name: SwarmRocketHV, Ref: FlakRocket
   # Meshfile: @rg_projectiles/RG_ProjectileSwarmRocket
-  #Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
-  Meshfile: @reforgedcontent/CouchRocket
+  Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
   AllowPlacingAt: GV, display: false
   # Meshfile: Entities/Items/Weapons/Projectiles/rocket01Prefab
   Mass: 168, type: float, display: true, formatter: Kilogram
@@ -18843,8 +18828,7 @@
 }
 { Item Id: 1632, Name: TurretGVPlasmaChargeT2
   # Meshfile: Entities/Items/Weapons/Projectiles/PlasmaProjectilePrefab
-  # Meshfile: @rg_projectiles/RG_ProjectilePlasmaBlue
-  Meshfile: @reforgedcontent/LaundryLauncher
+  Meshfile: @rg_projectiles/RG_ProjectilePlasmaBlue
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: "SS,GV", display: false
@@ -18897,8 +18881,7 @@
 }
 { Item Id: 1633, Name: ArtilleryShellHVT2
   # Meshfile: Entities/Items/Weapons/Projectiles/RocketLargePrefab
-  #Meshfile: @rg_projectiles/RG_ProjectileArtilleryYellowNew
-  Meshfile: @reforgedcontent/FridgeMissile
+  Meshfile: @rg_projectiles/RG_ProjectileArtilleryYellowNew
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: GV, display: false
@@ -19129,8 +19112,7 @@
 }
 { Item Id: 1634, Name: PulseLaserChargeSST2
   # Meshfile: Entities/Items/Weapons/Projectiles/LaserShotRedAlien
-  #Meshfile: @rg_projectiles/RG_ProjectileVulcanRedNew
-  Meshfile: @reforgedcontent/CokeBullet
+  Meshfile: @rg_projectiles/RG_ProjectileVulcanRedNew
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   MarketPrice: 261, display: true
@@ -19393,8 +19375,7 @@
   TechTreeNames: Hidden
 }
 { Item Id: 2436, Name: TurretZiraxPlasmaT2Weapon
-  #Meshfile: @models/Blocks/Turrets/TurretMSPlasmaPrefab
-  Meshfile: @reforgedcontent/LaundryLauncher
+  Meshfile: @models/Blocks/Turrets/TurretMSPlasmaPrefab
   DropMeshfile: Entities/Misc/BagSmallPrefab
   ShowUser: NoButCSV  # reported by HWS
   Canhold: false
@@ -19428,8 +19409,7 @@
 }
 { Item Id: 1637, Name: HeavyRocketBA
   # Meshfile: Entities/Items/Weapons/Projectiles/RocketLargePrefab
-  #Meshfile: @rg_projectiles/RG_ProjectileHeavyRocket2
-  Meshfile: @reforgedcontent/FridgeMissile
+  Meshfile: @rg_projectiles/RG_ProjectileHeavyRocket2
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: Base, display: false
@@ -19633,8 +19613,7 @@
 }
 { Item Id: 1639, Name: ZiraxMSPlasmaCharge
   # Meshfile: Entities/Items/Weapons/Projectiles/PlasmaProjectilePrefab
-  #Meshfile: @rg_projectiles/RG_ProjectilePlasmaRed
-  Meshfile: @reforgedcontent/MicrwaveMissile
+  Meshfile: @rg_projectiles/RG_ProjectilePlasmaRed
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: MS, display: false
@@ -19897,8 +19876,7 @@
 # Zirax T2 Plasma Charge
 { Item Id: 1642, Name: ZiraxTurretPlasmaChargeT2
   # Meshfile: Entities/Items/Weapons/Projectiles/PlasmaProjectilePrefab
-  #Meshfile: @rg_projectiles/RG_ProjectilePlasmaYellow
-  Meshfile: @reforgedcontent/LaundryLauncher
+  Meshfile: @rg_projectiles/RG_ProjectilePlasmaYellow
   DropMeshfile: Entities/Misc/BagSmallPrefab
   Material: metalweapon
   AllowPlacingAt: "Base,MS", display: false
@@ -21311,6 +21289,7 @@
     DamageMultiplier_2: 5, param1: metal|metalhard
   }
 }
+
 
 # ============================================================================================================================================================================
 # ========================================================================================================================== Project Eden Custom Items
