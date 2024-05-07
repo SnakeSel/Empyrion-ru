@@ -43,7 +43,7 @@ if [ "${ISRE:-0}" -eq 1 ]; then
 fi
 
 SAVENAME=$(ls -1t "$PATHEMPYRION/Saves/Games" | head -n 1)
-if cp -f "$PDA" "$PATHEMPYRION/Saves/Games/$SAVENAME";then
+if cp -f "$PDA" "$PATHEMPYRION/Saves/Games/$SAVENAME/PDA/";then
     echo "PDA в \"$SAVENAME\" обновлен"
 fi
 
