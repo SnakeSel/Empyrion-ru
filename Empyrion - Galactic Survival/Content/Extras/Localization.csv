@@ -3684,7 +3684,7 @@ HullCombatSmallBlocks,Combat Steel Blocks S,Блоки оружейной ста
 HullCombatFullSmall,Combat Steel Block S,Блок оружейной стали М
 HullCombatThinSmall,Combat Steel Block S (thin),Блок оружейной стали М (тонкий)
 ContainerSpecialEvent,Special Events Container,Особый праздничный контейнер
-TurretMSProjectileBlocks,Projectile Turrets,Метательные турели
+TurretMSProjectileBlocks,Projectile Turrets,Баллистические турели
 TurretMSRocketBlocks,Rocket Turrets,Ракетные турели
 TurretMSLaserBlocks,Laser Turrets,Лазерные турели
 TurretMSToolBlocks,Tool Turrets,Рабочие турели
@@ -6843,3 +6843,10 @@ bmMaze,Maze,Лабиринт
 bmMazeEdge,Maze Edge,Край лабиринта
 DowngradeTo,Downgrade To,Понизить до
 rbrTurretsAreFiring,Device has been disabled due to turrets firing.\nFunctionality will be restored in {0} seconds.,Устройство было отключено из-за стрельбы турелей.\nФункциональность будет восстановлена через {0} секунд.
+SYSTEM INFO,SYSTEM INFO,Информация о системе
+SECTOR INFO,SECTOR INFO,Информация о секторе
+PLANET INFO,PLANET INFO,Информация о планете
+Sectors,Sectors,Секторы
+TglTerritories,Territories,Территории фракций
+TglSystemNames,System Names,Имена систем
+TglRegionNames,Region Names,Имена регионов
